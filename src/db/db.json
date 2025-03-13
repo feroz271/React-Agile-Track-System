@@ -1,0 +1,115 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "adminpassword",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Employee One",
+      "email": "employee1@example.com",
+      "password": "password1",
+      "role": "employee"
+    },
+    {
+      "id": 3,
+      "name": "Employee Two",
+      "email": "employee2@example.com",
+      "password": "password2",
+      "role": "employee"
+    },
+    {
+      "name": "Feroz Salim Sayyed",
+      "email": "dudeferoz786@gmail.com",
+      "password": "feroz27122",
+      "role": "employee",
+      "id": 4
+    },
+    {
+      "name": " ",
+      "email": "ds@gmail.com",
+      "password": "fsdf",
+      "role": "employee",
+      "id": 5
+    },
+    {
+      "name": " ",
+      "email": "sdf@gmail.com",
+      "password": "snkf",
+      "role": "employee",
+      "id": 6
+    },
+    {
+      "name": " ",
+      "email": "sfs@gmail.com",
+      "password": "csdcds",
+      "role": "employee",
+      "id": 7
+    }
+  ],
+  "scrums": [
+    {
+      "id": 1,
+      "name": "Scrum Team A"
+    },
+    {
+      "id": 2,
+      "name": "Scrum Team B"
+    },
+    {
+      "name": "Scrum Team C",
+      "id": 3
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Task One",
+      "description": "Description for Task One",
+      "status": "To Do",
+      "scrumId": 1,
+      "assignedTo": 2,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-01"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Task Two",
+      "description": "Description for Task Two",
+      "status": "In Progress",
+      "scrumId": 2,
+      "assignedTo": 3,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-02"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-07-03"
+        }
+      ]
+    },
+    {
+      "title": "Task Three",
+      "description": "Description for Task Three",
+      "status": "Done",
+      "scrumId": 3,
+      "assignedTo": "4",
+      "history": [
+        {
+          "status": "Done",
+          "date": "2025-03-13"
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
