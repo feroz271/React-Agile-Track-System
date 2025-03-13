@@ -17,7 +17,7 @@
 //     }
 //   }, [history]);
 
-//   // Fetch tasks for this scrum
+//   
 //   useEffect(() => {
 //     const fetchTasks = async () => {
 //       try {
